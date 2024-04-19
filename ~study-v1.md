@@ -90,9 +90,6 @@
 
 ## JAVA
 
-1. Java from Zero to First Job (Piatakha) [udemy](https://www.udemy.com/course/java-development-for-beginners-learnit/) 103,5
-   > left at section 17 (Exception Handling)
-
 ## Spring Boot
 
 - Testing Spring Boot: Beginner to Guru (John Thompson) [udemy] - 20h

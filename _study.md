@@ -2,14 +2,17 @@
 
 - ##### Algo, Interview
 
+1. Java from Zero to First Job (Piatakha) [udemy](https://www.udemy.com/course/java-development-for-beginners-learnit/) 103,5
+   > left at section 17 (Exception Handling)
+
 Java Data Structures and Algorithms Masterclass (Karimov) [udemy]: 45h
 LeetCode in Java Algorithms Coding Interview Questions (Barik) [udemy]: 38h
 
-Java Data Structures and Algorithms Masterclass (Karimov) [udemy] 1. Algorithms (Sedgewick R., Wayne K.) [book]: 969p -- _Examples in Java_
+1. Algorithms (Sedgewick R., Wayne K.) [book]: 969p -- _Examples in Java_
 
-1. Cracking the Coding Interview (McDowell) [book]: 712p
-2. Java Programs for Interviews (Motoori) [udemy]: 27h
-3. Coding Interview Bootcamp: Algorithms (CodeMan) [udemy] 10h
+2. Cracking the Coding Interview (McDowell) [book]: 712p
+3. Java Programs for Interviews (Motoori) [udemy]: 27h
+4. Coding Interview Bootcamp: Algorithms (CodeMan) [udemy] 10h
 
 - ##### Java
 
