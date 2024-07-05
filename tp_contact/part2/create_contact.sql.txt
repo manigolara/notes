@@ -1,0 +1,71 @@
+#------------------------------------------------------------
+#        Script MySQL.
+#------------------------------------------------------------
+
+
+#------------------------------------------------------------
+# Table: personne
+#------------------------------------------------------------
+
+CREATE TABLE personne(
+        id_personne int (11) Auto_increment  NOT NULL ,
+        civilite    Varchar (5) NOT NULL ,
+        nom         Varchar (100) NOT NULL ,
+        prenom      Varchar (100) NOT NULL ,
+        id_adresse  Int NOT NULL ,
+        PRIMARY KEY (id_personne )
+)ENGINE=InnoDB;
+
+
+#------------------------------------------------------------
+# Table: email
+#------------------------------------------------------------
+
+CREATE TABLE email(
+        id_email    int (11) Auto_increment  NOT NULL ,
+        email       Varchar (255) ,
+        id_personne Int NOT NULL ,
+        PRIMARY KEY (id_email )
+)ENGINE=InnoDB;
+
+
+#------------------------------------------------------------
+# Table: tel
+#------------------------------------------------------------
+
+CREATE TABLE tel(
+        id_tel      int (11) Auto_increment  NOT NULL ,
+        tel         Varchar (25) NOT NULL ,
+        id_personne Int NOT NULL ,
+        PRIMARY KEY (id_tel )
+)ENGINE=InnoDB;
+
+
+#------------------------------------------------------------
+# Table: adresse
+#------------------------------------------------------------
+
+CREATE TABLE adresse(
+        id_adresse int (11) Auto_increment  NOT NULL ,
+        adresse1   Varchar (255) NOT NULL ,
+        adresse2   Varchar (255) ,
+        id_ville   Int NOT NULL ,
+        PRIMARY KEY (id_adresse )
+)ENGINE=InnoDB;
+
+
+#------------------------------------------------------------
+# Table: ville
+#------------------------------------------------------------
+
+CREATE TABLE ville(
+        id_ville int (11) Auto_increment  NOT NULL ,
+        cp       Varchar (25) NOT NULL ,
+        ville    Varchar (255) NOT NULL ,
+        PRIMARY KEY (id_ville )
+)ENGINE=InnoDB;
+
+ALTER TABLE personne ADD CONSTRAINT FK_personne_id_adresse FOREIGN KEY (id_adresse) REFERENCES adresse(id_adresse);
+ALTER TABLE email ADD CONSTRAINT FK_email_id_personne FOREIGN KEY (id_personne) REFERENCES personne(id_personne);
+ALTER TABLE tel ADD CONSTRAINT FK_tel_id_personne FOREIGN KEY (id_personne) REFERENCES personne(id_personne);
+ALTER TABLE adresse ADD CONSTRAINT FK_adresse_id_ville FOREIGN KEY (id_ville) REFERENCES ville(id_ville);
