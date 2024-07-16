@@ -5,9 +5,9 @@
 
 ---
 
-Spring Security 6 Zero to Master along with JWT,OAUTH2 (Eazy Bytes) [udemy](https://www.udemy.com/course/spring-security-zero-to-master) - 15h
-Master Microservices with SpringBoot,Docker,Kubernetes (Eazy Bytes) [udemy](https://www.udemy.com/course/master-microservices-with-spring-docker-kubernetes) - 39h
-Learn Advanced Java (John Purcell) [udemy](https://www.udemy.com/course/learn-advanced-java/) - 19h
-Building a Java Spring Boot Web App From Scratch (Trevor Page) [udemy](https://www.udemy.com/course/building-a-java-spring-boot-web-app-from-scratch) | 15h
-Master UML - A Complete Unified Modeling Language Guide (Amit Chugh) [udemy](https://www.udemy.com/course/master-uml) | 3 hours
-Design Patterns and SOLID Principles with Java (Robert Kohanyi) [packt] | 6h
+- Spring Security 6 Zero to Master along with JWT,OAUTH2 (Eazy Bytes) [udemy](https://www.udemy.com/course/spring-security-zero-to-master) - 15h
+- Master Microservices with SpringBoot,Docker,Kubernetes (Eazy Bytes) [udemy](https://www.udemy.com/course/master-microservices-with-spring-docker-kubernetes) - 39h
+- Learn Advanced Java (John Purcell) [udemy](https://www.udemy.com/course/learn-advanced-java/) - 19h
+- Building a Java Spring Boot Web App From Scratch (Trevor Page) [udemy](https://www.udemy.com/course/building-a-java-spring-boot-web-app-from-scratch) | 15h
+- Master UML - A Complete Unified Modeling Language Guide (Amit Chugh) [udemy](https://www.udemy.com/course/master-uml) | 3 hours
+- Design Patterns and SOLID Principles with Java (Robert Kohanyi) [packt] | 6h
